@@ -1,0 +1,17 @@
+
+
+
+.logo{
+    width: 50px;
+}
+
+.navbar {  
+    position: absolute; /* posición del navbar */
+    width: 100%;
+    z-index: 1000;
+}
+
+.carousel-item img {
+    height: 100vh; /* Ajusta la altura de la imagen al alto de la ventana */
+    object-fit: cover; /* Asegura que la imagen cubra completamente el contenedor */
+}
