@@ -1,17 +1,28 @@
 
+:root{
+    --main-color:#0dc7f0;
+}
 
 
 .logo{
     width: 50px;
 }
-
 .navbar {  
-    position: absolute; /* posición del navbar */
+    position: fixed; /* posición del navbar */
     width: 100%;
     z-index: 1000;
 }
 
 .carousel-item img {
-    height: 100vh; /* Ajusta la altura de la imagen al alto de la ventana */
+    height: 100%; /* Ajusta la altura de la imagen al alto de la ventana */
     object-fit: cover; /* Asegura que la imagen cubra completamente el contenedor */
 }
+
+.font{
+    font-family: "Montserrat", sans-serif;
+}
+.card-img-top{
+    object-fit: cover;
+}
+
+
