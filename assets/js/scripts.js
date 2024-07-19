@@ -3,7 +3,7 @@ $(document).ready(function() {
         Swal.fire({
             icon: 'success',
             title: '¡Mensaje enviado!',
-            text: 'Tu mensaje ha sido enviado correctamente.',
+            text: 'Genial,tu mensaje ha sido enviado correctamente.',
             confirmButtonText: 'Aceptar'
         });
     });
